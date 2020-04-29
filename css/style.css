@@ -1,0 +1,36 @@
+body{
+    background:black;
+}
+
+
+#grille{
+    display: grid;
+    grid-template-columns: repeat(19, 40px);
+    grid-template-rows: repeat(22, 40px);
+
+}
+
+.mur{
+    background-color: blue;
+    border-radius:10px;
+}
+
+.sol{
+    background:black;
+}
+
+.bonbon{
+    background-image: url('../img/bonbon.gif');
+    background-color:purple;
+}
+
+
+.pacman{
+    
+    z-index:100;
+    background-image: url(../img/pacman4.gif);
+}
+
+#score{
+    color:white;
+}
